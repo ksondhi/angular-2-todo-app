@@ -12,7 +12,7 @@
 * Install Angular CLI
 
   ```javascript
-        npm install -g angular-cli
+    npm install -g angular-cli
   ```
 
 * Create the new project
