@@ -1,3 +1,26 @@
+# Introduction
+
+  A TODO application in Angular 2 written with the purpose of teaching myself Angular 2.
+
+# Prerequisites
+
+* Install node (v6.10.0 or higher)
+
+
+# Setup
+
+* Install Angular CLI
+
+  ```javascript
+        npm install -g angular-cli
+  ```
+
+* Create the new project
+
+```javascript
+    ng new angular-2-todo-app --style=scss
+```
+
 # Angular2TodoApp
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
