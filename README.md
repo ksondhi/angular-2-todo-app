@@ -17,9 +17,9 @@
 
 * Create the new project
 
-```javascript
+  ```javascript
     ng new angular-2-todo-app --style=scss
-```
+  ```
 
 # Angular2TodoApp
 
