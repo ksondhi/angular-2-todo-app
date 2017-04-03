@@ -2,7 +2,7 @@
 
   A TODO application in Angular 2 written with the purpose of teaching myself Angular 2.
 
-  **Tutorial Used:** http://adrianmejia.com/blog/2016/10/01/Angular-2-Tutorial-Create-a-CRUD-App-with-Angular-CLI-and-TypeScript/
+  **Tutorial Used:** [TODO App](http://adrianmejia.com/blog/2016/10/01/Angular-2-Tutorial-Create-a-CRUD-App-with-Angular-CLI-and-TypeScript/)
 
 # Prerequisites
 
