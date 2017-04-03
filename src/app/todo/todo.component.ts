@@ -39,6 +39,12 @@ export class TodoComponent implements OnInit {
     }); 
   }
 
+  clearCompleted() {
+    this.todoService.deleteCompleted().then(() => {
+      return this.getTodos();
+    });
+  }
+
   updateTodo(todo, newValue) {
     todo.title = newValue;
     return this.todoService.put(todo).then(() => {

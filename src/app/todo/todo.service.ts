@@ -41,6 +41,13 @@ export class TodoService {
     });
   }
 
+  deleteCompleted() {
+    return new Promise(resolve => {
+      todos = todos.filter(todos => !todos.isDone);
+      resolve(todos);
+    });
+  }
+
   add(data) {
     return new Promise(resolve => {
       todos.push(data);
