@@ -14,7 +14,7 @@
         <div class="view">
           <input class="toggle" type="checkbox" [checked]="todo.isDone">
           <label (dblclick)="todo.editing = true" >{{todo.title}}</label>
-          <button class="destroy"></button>
+          <button (click)="destroyTodo(todo)" class="destroy"></button>
         </div>
         <input class="edit" 
               #updatedTodo 
